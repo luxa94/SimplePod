@@ -1,0 +1,27 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnotherThing"
+provides-nominal:
+- "9SimplePod12AnotherThingC"
+provides-member:
+- ["9SimplePod12AnotherThingC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnotherThing"
+- "AssignmentPrecedence"
+- "Int"
+- !private "print"
+depends-member:
+- ["9SimplePod12AnotherThingC", "Int"]
+- ["9SimplePod12AnotherThingC", "a"]
+- ["9SimplePod12AnotherThingC", "deinit"]
+- ["9SimplePod12AnotherThingC", "hi"]
+- ["9SimplePod12AnotherThingC", "init"]
+- !private ["9SimplePod12AnotherThingC", "print"]
+depends-nominal:
+- "9SimplePod12AnotherThingC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "d879dadcb7052b4297872240d3898b77"

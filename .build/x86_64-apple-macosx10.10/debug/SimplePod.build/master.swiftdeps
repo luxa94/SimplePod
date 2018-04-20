@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "18af702fffb6c8a062098883dafcfd9b"
+build_time: [1524222831, 25801000]
+inputs:
+  "/Users/nikolalukic/workspace/swift/podtest/SimplePod/SimplePod/Classes/AnotherThing.swift": [9223372036, 854775807]
+  "/Users/nikolalukic/workspace/swift/podtest/SimplePod/SimplePod/Classes/Something.swift": [1524216962, 0]

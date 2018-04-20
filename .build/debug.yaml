@@ -1,0 +1,30 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "main": ["/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.swiftmodule","<SimplePod.module>"]
+  "test": ["/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.swiftmodule","<SimplePod.module>"]
+  "SimplePod.module": ["/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.swiftmodule","<SimplePod.module>"]
+default: "main"
+commands: 
+  "<C.SimplePod.module>":
+    tool: phony
+    inputs: ["/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.swiftmodule"]
+    outputs: ["<SimplePod.module>"]
+
+  "C.SimplePod.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "SimplePod"
+    module-output-path: "/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.swiftmodule"
+    inputs: ["/Users/nikolalukic/workspace/swift/podtest/SimplePod/SimplePod/Classes/AnotherThing.swift","/Users/nikolalukic/workspace/swift/podtest/SimplePod/SimplePod/Classes/Something.swift"]
+    outputs: ["/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build/SimplePod/Classes/AnotherThing.swift.o","/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build/SimplePod/Classes/Something.swift.o","/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.swiftmodule"]
+    import-paths: ["/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug"]
+    temps-path: "/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build"
+    objects: ["/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build/SimplePod/Classes/AnotherThing.swift.o","/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build/SimplePod/Classes/Something.swift.o"]
+    other-args: ["-swift-version","4","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j8","-DSWIFT_PACKAGE","-module-cache-path","/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/nikolalukic/workspace/swift/podtest/SimplePod/SimplePod/Classes/AnotherThing.swift","/Users/nikolalukic/workspace/swift/podtest/SimplePod/SimplePod/Classes/Something.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+

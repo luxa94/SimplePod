@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build/master.swiftdeps"
+  },
+  "/Users/nikolalukic/workspace/swift/podtest/SimplePod/SimplePod/Classes/AnotherThing.swift": {
+    "dependencies": "/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build/AnotherThing.d",
+    "object": "/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build/SimplePod/Classes/AnotherThing.swift.o",
+    "swiftmodule": "/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build/AnotherThing~partial.swiftmodule",
+    "swift-dependencies": "/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build/AnotherThing.swiftdeps"
+  },
+  "/Users/nikolalukic/workspace/swift/podtest/SimplePod/SimplePod/Classes/Something.swift": {
+    "dependencies": "/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build/Something.d",
+    "object": "/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build/SimplePod/Classes/Something.swift.o",
+    "swiftmodule": "/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build/Something~partial.swiftmodule",
+    "swift-dependencies": "/Users/nikolalukic/workspace/swift/podtest/SimplePod/.build/x86_64-apple-macosx10.10/debug/SimplePod.build/Something.swiftdeps"
+  }
+}
