@@ -22,7 +22,7 @@ pod 'SimplePod'
 
 ## Author
 
-luxa94e, luknik94@gmail.com
+luxa94, luknik94@gmail.com
 
 ## License
 
