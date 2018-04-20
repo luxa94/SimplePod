@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SimplePod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SimplePod.'
+  s.summary          = 'Some simple pod.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/luxa94e/SimplePod'
+  s.homepage         = 'https://github.com/luxa94/SimplePod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'luxa94e' => 'luknik94@gmail.com' }
-  s.source           = { :git => 'https://github.com/luxa94e/SimplePod.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/luxa94/SimplePod.git', :tag => s.version.to_s }
+
+  s.swift_version = '4.1'
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.10'
+  s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '2.0'
 
-  s.source_files = 'SimplePod/Classes/**/*'
+  s.source_files = 'SimplePod/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'SimplePod' => ['SimplePod/Assets/*.png']

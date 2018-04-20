@@ -1,0 +1,22 @@
+{
+  "name": "SimplePod",
+  "version": "0.1.0",
+  "summary": "A short description of SimplePod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luxa94e/SimplePod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luxa94e": "luknik94@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/luxa94e/SimplePod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SimplePod/Classes/**/*"
+}
